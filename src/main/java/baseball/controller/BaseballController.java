@@ -39,7 +39,6 @@ public class BaseballController {
 
     private void restart() {
         exitCode = BaseballConsoleView.restartGame();
-        //ValidateService.validateSelectionRange(isExit);
         if (CodeConst.START_CODE.equals(exitCode)) {
             generateComputerNumberList();
         }
